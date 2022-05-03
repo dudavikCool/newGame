@@ -1,0 +1,39 @@
+[gd_scene format=2]
+
+[node name="Control" type="Control"]
+margin_right = 40.0
+margin_bottom = 40.0
+
+[node name="Panel" type="Panel" parent="."]
+self_modulate = Color( 0.211765, 0.211765, 0.211765, 0 )
+show_behind_parent = true
+margin_right = 331.0
+margin_bottom = 70.0
+
+[node name="countTree" type="Label" parent="Panel"]
+margin_left = 2.0
+margin_top = 2.0
+margin_right = 76.0
+margin_bottom = 16.0
+text = "Tree is:"
+
+[node name="countStone" type="Label" parent="Panel"]
+margin_left = 2.0
+margin_top = 17.0
+margin_right = 80.0
+margin_bottom = 31.0
+text = "Stone is:"
+
+[node name="tree" type="Label" parent="Panel"]
+margin_left = 59.0
+margin_top = 3.0
+margin_right = 99.0
+margin_bottom = 17.0
+text = "0"
+
+[node name="stone" type="Label" parent="Panel"]
+margin_left = 59.0
+margin_top = 18.0
+margin_right = 99.0
+margin_bottom = 32.0
+text = "0"
